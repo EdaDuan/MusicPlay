@@ -3,15 +3,19 @@
     <Home></Home>
   </div>
 </template>
+
 <script>
-import Home from "./views/Home/Home";
+import Home from './views/Home/Home'
+import './assets/css/base.css'
+
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    Home,
-  },
-};
+    Home
+  }
+}
 </script>
-<style lang="scss">
-@import "./assets/scss/base.scss";
+
+<style>
+
 </style>
