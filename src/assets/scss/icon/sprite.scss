@@ -1,0 +1,21 @@
+ @function px2rem($px) {
+                  $rem :40;
+                  @return #{$px/$rem}rem
+                }
+.icon { background-image: url(~@/src/assets/images/sprite/sprite.png); background-size: px2rem(497) px2rem(350);}
+.icon-ic_canner { width: px2rem(58); height: px2rem(60); background-position: px2rem(-199) px2rem(-290);} 
+.icon-ic_collected { width: px2rem(63); height: px2rem(59); background-position: px2rem(-120) px2rem(-170);} 
+.icon-ic_listLoop { width: px2rem(60); height: px2rem(60); background-position: px2rem(-340) px2rem(0);} 
+.icon-ic_listShow { width: px2rem(60); height: px2rem(60); background-position: px2rem(-340) px2rem(-100);} 
+.icon-ic_next { width: px2rem(58); height: px2rem(60); background-position: px2rem(-297) px2rem(-290);} 
+.icon-ic_orderPlay { width: px2rem(57); height: px2rem(60); background-position: px2rem(-440) px2rem(0);} 
+.icon-ic_play { width: px2rem(130); height: px2rem(130); background-position: px2rem(0) px2rem(0);} 
+.icon-ic_randomPlay { width: px2rem(59); height: px2rem(60); background-position: px2rem(-100) px2rem(-290);} 
+.icon-ic_singleLoop { width: px2rem(60); height: px2rem(60); background-position: px2rem(0) px2rem(-290);} 
+.icon-ic_stop { width: px2rem(130); height: px2rem(130); background-position: px2rem(-170) px2rem(0);} 
+.icon-li_collect { width: px2rem(42); height: px2rem(38); background-position: px2rem(-440) px2rem(-100);} 
+.icon-li_collected { width: px2rem(42); height: px2rem(38); background-position: px2rem(-440) px2rem(-178);} 
+.icon-pickUp { width: px2rem(36); height: px2rem(21); background-position: px2rem(-440) px2rem(-328);} 
+.icon-playCurt { width: px2rem(30); height: px2rem(32); background-position: px2rem(-440) px2rem(-256);} 
+.icon-time { width: px2rem(24); height: px2rem(24); background-position: px2rem(-340) px2rem(-200);} 
+.icon-warnning { width: px2rem(80); height: px2rem(80); background-position: px2rem(0) px2rem(-170);} 
